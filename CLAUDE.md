@@ -2,7 +2,7 @@
 
 ## 这是什么
 
-GPT Image 2 图像生成提示词专家 + 360° 环景图生成工具。基于 [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 构建，增加了美影厂动画技法图库、游戏风格路由、NewAPI 代理支持等。
+GPT Image 2 图像生成提示词专家。基于 [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) 构建，增加了美影厂动画技法图库、游戏风格路由、NewAPI 代理支持等。
 
 ## 目录结构
 
@@ -16,13 +16,9 @@ JC-GPTImage2-skill/
 │   │   └── scripts/           #   执行脚本
 │   └── src/                   #   Python CLI（gpt_image_cli）
 │
-├── JC-360huanjing/            # 360° 环景图生成（原名 JC-360huangjing）
-│   ├── SKILL.md
-│   └── scripts/               #   环景图生成脚本
-│
 ├── assets/                    # logo.svg + guanfangweixin.jpg
 ├── README.md
-├── LICENSE                    # CC BY-NC 4.0
+├── LICENSE                    # MIT
 └── CLAUDE.md                  # 本文件
 ```
 
@@ -67,6 +63,5 @@ prompt 模板
 
 1. **新增图库条目**：在对应 `gallery-*.md` 追加，更新 `gallery.md` 索引和 README
 2. **修改上游内容**：标注改动原因，保留原始作者署名
-3. **Skill 改名**：`JC-360huangjing` → `JC-360huanjing`
-4. **许可证**：本项目 CC BY-NC 4.0，原始 GPT-Image2-Skill 版权归 wuyoscar 所有
-5. **Python CLI**：`src/gpt_image_cli/` 目录，基于 OpenAI SDK，支持 NewAPI 代理
+3. **许可证**：本项目 MIT，原始 GPT-Image2-Skill 版权归 wuyoscar 所有
+4. **Python CLI**：`src/gpt_image_cli/` 目录，基于 OpenAI SDK，支持 NewAPI 代理
